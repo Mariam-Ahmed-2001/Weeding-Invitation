@@ -106,11 +106,17 @@
       scale: 1.1;
     }
     @media  screen and (max-width: 800px) {
-      body {
-        background-size: cover;
-        background-position: center top;
-        overflow:hidden;
+      body{
+        position: relative;
       }
+      .buttons-container {
+        position: absolute;
+        bottom: 10%;
+        /* transform: translateY(-40%);    */
+         }      
+         .loction{
+          transform: translateY(80%);
+         }
     }
   </style>
 </head>
